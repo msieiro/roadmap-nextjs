@@ -85,7 +85,7 @@ export default function Home(careerItems: CareerResponse) {
 }
 
 export async function getServerSideProps() {
-  const reqCareer = await fetch(`http://localhost:3000/data/career.json`)
+  const reqCareer = await fetch(`https://roadmap-nextjs.vercel.app/data/career.json`)
   const careerData = await reqCareer.json()
   const career: CareerItem[] = careerData.career
   return {
