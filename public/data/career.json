@@ -1,0 +1,378 @@
+{
+    "career": [{
+            "company": "SearchIT - Ayesa",
+            "good_learning": false,
+            "level": "Contrato Indefinido",
+            "qualification": "Full-stack web developer",
+            "skills": ["Big Data"],
+            "technologies": [
+                "html",
+                "css",
+                "javascript",
+                "java",
+                "spring",
+                "hibernate",
+                "scala",
+                "spark",
+                "hadoop"
+            ],
+            "type": "JOB",
+            "years": {
+                "from": {
+                    "month": "Septiembre",
+                    "year": "2022"
+                },
+                "to": {
+                    "month": "Actualmente",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Instituto Interculturas",
+            "good_learning": true,
+            "level": "Contrato Indefinido",
+            "qualification": "Full-stack web developer",
+            "skills": [
+                "Patrones de arquitectura",
+                "Modelado de datos",
+                "Accesibilidad",
+                "Diseño responsive",
+                "Blockchain",
+                "NFTs"
+            ],
+            "technologies": [
+                "html",
+                "css",
+                "javascript",
+                "typescript",
+                "vuejs",
+                "react",
+                "vuetify",
+                "webpack",
+                "sass",
+                "cypress",
+                "java",
+                "spring",
+                "hibernate",
+                "wordpress",
+                "postgres",
+                "mongodb",
+                "docker",
+                "nginx",
+                "actions"
+            ],
+            "type": "JOB",
+            "years": {
+                "from": {
+                    "month": "Abril",
+                    "year": "2021"
+                },
+                "to": {
+                    "month": "Septiembre",
+                    "year": "2022"
+                }
+            }
+        },
+        {
+            "company": "Platzi",
+            "level": "Introducción a aplicaciones decentralizadas",
+            "link": "https://platzi.com/p/sieirogutierrezmartin/course/2562-intro-dapps/diploma/detalle/",
+            "qualification": "Certificación",
+            "skills": ["Smart Contracts", "Blockchain", "Ethereum", "NFTs"],
+            "technologies": ["solidity", "hardhat", "openzeppelin"],
+            "type": "COURSE",
+            "years": {
+                "from": {
+                    "month": "Marzo",
+                    "year": "2022"
+                },
+                "to": {
+                    "month": "",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Platzi",
+            "level": "Ethereum for developers",
+            "link": "https://platzi.com/p/sieirogutierrezmartin/curso/2560-ethereum-developers/diploma/detalle/",
+            "qualification": "Certificación",
+            "skills": ["Smart Contracts", "Blockchain", "Ethereum"],
+            "technologies": ["solidity"],
+            "type": "COURSE",
+            "years": {
+                "from": {
+                    "month": "Marzo",
+                    "year": "2022"
+                },
+                "to": {
+                    "month": "",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Platzi",
+            "level": "Introducción a Solidity",
+            "link": "https://platzi.com/p/sieirogutierrezmartin/course/2576-solidity/diploma/detalle/",
+            "qualification": "Certificación",
+            "skills": ["Smart Contracts", "Blockchain", "Ethereum"],
+            "technologies": ["solidity"],
+            "type": "COURSE",
+            "years": {
+                "from": {
+                    "month": "Marzo",
+                    "year": "2022"
+                },
+                "to": {
+                    "month": "",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Platzi",
+            "level": "Prework for blockchain developer",
+            "link": "https://platzi.com/p/sieirogutierrezmartin/curso/2559-prework-blockchain/diploma/detalle/",
+            "qualification": "Certificación",
+            "skills": ["Smart Contracts", "Blockchain", "Ethereum"],
+            "technologies": [
+                "remixide",
+                "truffle",
+                "ganache",
+                "solidity",
+                "hardhat",
+                "web3js"
+            ],
+            "type": "COURSE",
+            "years": {
+                "from": {
+                    "month": "Marzo",
+                    "year": "2022"
+                },
+                "to": {
+                    "month": "",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Platzi",
+            "level": "Fundamentos de Web3",
+            "link": "https://platzi.com/p/sieirogutierrezmartin/curso/2727-fundamentos-web3/diploma/detalle/",
+            "qualification": "Certificación",
+            "skills": ["Web3", "Blockchain", "Smart Contracts", "Ethereum"],
+            "technologies": [],
+            "type": "COURSE",
+            "years": {
+                "from": {
+                    "month": "Febrero",
+                    "year": "2022"
+                },
+                "to": {
+                    "month": "",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Hack A Boss",
+            "good_learning": true,
+            "level": "Desarrollo de aplicaciones web",
+            "qualification": "Bootcamp",
+            "skills": ["Patrones de arquitectura", "Modelado de datos"],
+            "technologies": [
+                "html",
+                "css",
+                "javascript",
+                "nodejs",
+                "express",
+                "react",
+                "react-query",
+                "styled-components",
+                "sass",
+                "mysql",
+                "figma",
+                "actions"
+            ],
+            "type": "SCHOOL",
+            "years": {
+                "from": {
+                    "month": "Octubre",
+                    "year": "2020"
+                },
+                "to": {
+                    "month": "Marzo",
+                    "year": "2021"
+                }
+            }
+        },
+        {
+            "company": "FreeCodeCamp",
+            "level": "Diseño Responsive",
+            "link": "https://www.freecodecamp.org/Certificación/fcc86715b66-fcc3-49ad-b077-6f15ceabb7da/responsive-web-design",
+            "qualification": "Certificación",
+            "skills": ["Accesibilidad", "Diseño responsive"],
+            "technologies": ["html", "css", "javascript"],
+            "type": "COURSE",
+            "years": {
+                "from": {
+                    "month": "Octubre",
+                    "year": "2020"
+                },
+                "to": {
+                    "month": "",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Google Actívate",
+            "level": "Desarrollo Web II",
+            "link": "https://learndigital.withgoogle.com/activate/validate-certificate-code",
+            "qualification": "Certificación",
+            "skills": ["Accesibilidad", "Diseño responsive"],
+            "technologies": ["html", "css", "javascript"],
+            "type": "COURSE",
+            "years": {
+                "from": {
+                    "month": "Septiembre",
+                    "year": "2020"
+                },
+                "to": {
+                    "month": "",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Google Actívate",
+            "level": "Desarrollo Web I",
+            "link": "https://learndigital.withgoogle.com/activate/validate-certificate-code",
+            "qualification": "Certificación",
+            "skills": ["Accesibilidad", "Diseño responsive"],
+            "technologies": ["html", "css", "javascript"],
+            "type": "COURSE",
+            "years": {
+                "from": {
+                    "month": "Septiembre",
+                    "year": "2020"
+                },
+                "to": {
+                    "month": "",
+                    "year": ""
+                }
+            }
+        },
+        {
+            "company": "Indra",
+            "good_learning": true,
+            "level": "FP Dual",
+            "qualification": "Full-stack web developer",
+            "skills": ["Patrones de arquitectura", "Modelado de datos"],
+            "technologies": [
+                "html",
+                "css",
+                "bootstrap",
+                "javascript",
+                "jquery",
+                "java",
+                "spring",
+                "hibernate",
+                "tomcat",
+                "mssqlserver"
+            ],
+            "type": "JOB",
+            "years": {
+                "from": {
+                    "month": "Marzo",
+                    "year": "2020"
+                },
+                "to": {
+                    "month": "Agosto",
+                    "year": "2020"
+                }
+            }
+        },
+        {
+            "company": "IES Fernando Wirtz",
+            "good_learning": true,
+            "level": "FP Dual",
+            "qualification": "Formación Profesional Superior",
+            "skills": ["Modelado de datos"],
+            "technologies": [
+                "html",
+                "css",
+                "bootstrap",
+                "javascript",
+                "java",
+                "spring",
+                "hibernate",
+                "mssqlserver",
+                "mysql",
+                "mongodb",
+                "docker",
+                "nginx"
+            ],
+            "type": "SCHOOL",
+            "years": {
+                "from": {
+                    "month": "Septiembre",
+                    "year": "2019"
+                },
+                "to": {
+                    "month": "Marzo",
+                    "year": "2020"
+                }
+            }
+        },
+        {
+            "company": "Indra",
+            "good_learning": true,
+            "level": "FP Dual",
+            "qualification": "Full-stack web developer",
+            "skills": ["Modelado de datos"],
+            "technologies": [
+                "html",
+                "css",
+                "javascript",
+                "java",
+                "spring",
+                "hibernate",
+                "tomcat",
+                "mssqlserver"
+            ],
+            "type": "JOB",
+            "years": {
+                "from": {
+                    "month": "Marzo",
+                    "year": "2019"
+                },
+                "to": {
+                    "month": "Agosto",
+                    "year": "2019"
+                }
+            }
+        },
+        {
+            "company": "IES Fernando Wirtz",
+            "good_learning": true,
+            "level": "FP Dual",
+            "qualification": "Formación Profesional Superior",
+            "skills": ["Modelado de datos"],
+            "technologies": ["html", "css", "bootstrap", "java", "mysql"],
+            "type": "SCHOOL",
+            "years": {
+                "from": {
+                    "month": "Septiembre",
+                    "year": "2018"
+                },
+                "to": {
+                    "month": "Marzo",
+                    "year": "2019"
+                }
+            }
+        }
+    ]
+}

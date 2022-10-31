@@ -1,0 +1,22 @@
+{
+    "background_color": "#000",
+    "display": "standalone",
+    "icons": [{
+            "purpose": "any maskable",
+            "sizes": "192x192",
+            "src": "/assets/icons/android-chrome-192x192.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "512x512",
+            "src": "/assets/icons/android-chrome-512x512.png",
+            "type": "image/png"
+        }
+    ],
+    "name": "msieiro-roadmap",
+    "orientation": "portrait",
+    "short_name": "msieiro-roadmap",
+    "start_url": "/",
+    "theme_color": "#000"
+}

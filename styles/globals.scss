@@ -1,0 +1,247 @@
+// Variables
+$bg-body: black;
+$red: #a40c0c;
+$blue: #2b2e48;
+$primary-color: $red;
+$secondary-color: $blue;
+// Typography
+$base-font: console,
+arial,
+tahoma,
+verdana;
+$base-font-title: console,
+tahoma,
+verdana;
+$base-font-color: #726f77;
+// Timeline
+$timeline-color: linear-gradient( 90deg, rgba(15, 17, 93, 1) 0%, rgba(92, 29, 253, 1) 50%, rgba(131, 58, 180, 1) 100%);
+// Mixins and Placeholders
+%clearfix {
+    &:after,
+    &:before {
+        content: '';
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+}
+
+@mixin prefix($prop, $val) {
+    @each $prefix in '-webkit-',
+    '-moz-',
+    '-ms-',
+    '' {
+        #{$prefix}#{$prop}: $val;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background: $bg-body;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: $base-font;
+    line-height: 20px;
+    font-size: 14px;
+    color: $base-font-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font: {
+        family: $base-font-title;
+        weight: 500;
+    }
+}
+
+.name {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+// Timeline
+#timeline {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 10px;
+    @include prefix(transition, all 0.4s ease);
+    &:before {
+        content: '';
+        width: 3px;
+        height: 100%;
+        background: $timeline-color;
+        left: 50%;
+        top: 0;
+        position: absolute;
+    }
+    &:after {
+        content: '';
+        clear: both;
+        display: table;
+        width: 100%;
+    }
+    .timeline-item {
+        margin-bottom: 50px;
+        position: relative;
+        @extend %clearfix;
+        .timeline-icon {
+            background: $timeline-color;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            overflow: hidden;
+            margin-left: -23px;
+            @include prefix(border-radius, 50%);
+            svg {
+                position: relative;
+                top: 14px;
+                left: 14px;
+            }
+        }
+        .timeline-content {
+            width: 45%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.123);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            color: #fff !important;
+            @include prefix(box-shadow, 0 8px 32px 0 rgba(31, 38, 135, 0.37));
+            @include prefix(border-radius, 10px);
+            @include prefix(transition, all 0.3s ease);
+            h2 {
+                padding: 15px;
+                background: $timeline-color;
+                color: #fff;
+                margin: -20px -20px 0 -20px;
+                font-weight: 300;
+                @include prefix(border-radius, 3px 3px 0 0);
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                left: 45%;
+                top: 20px;
+                width: 0;
+                height: 0;
+                border-top: 7px solid transparent;
+                border-bottom: 7px solid transparent;
+                border-left: 7px solid $timeline-color;
+            }
+            &.right {
+                float: right;
+                &:before {
+                    content: '';
+                    right: 45%;
+                    left: inherit;
+                    border-left: 0;
+                    border-right: 7px solid $timeline-color;
+                }
+            }
+            .skills {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 1rem;
+            }
+            .badge {
+                background: $timeline-color;
+                color: white;
+                padding: 4px 8px;
+                text-align: center;
+                border-radius: 10px;
+                margin-top: 0.5rem;
+                margin-left: 0.3rem;
+                margin-right: 0.3rem;
+            }
+        }
+    }
+}
+
+#footer {
+    background: $timeline-color;
+    color: white;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4 {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    span {
+        a {
+            text-decoration: none;
+            color: white !important;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #timeline {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        padding: 0px;
+        width: 90%;
+        &:before {
+            left: 0;
+        }
+        .timeline-item {
+            .timeline-content {
+                width: 90%;
+                float: right;
+                &:before,
+                &.right:before {
+                    left: 10%;
+                    margin-left: -6px;
+                    border-left: 0;
+                    border-right: 7px solid $timeline-color;
+                }
+            }
+            .timeline-icon {
+                left: 0;
+            }
+        }
+    }
+}
